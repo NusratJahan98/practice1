@@ -39,5 +39,34 @@ main{
     #562EFF;
     font-size: 24px;
     font-weight: 500;
+}
+
+
+.blogers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap:16px;
+}
+.bloger img{
+    width: 177px;
+    height: 117px;
+}
+.bloger{
+    display: flex;
+    text-align: center;
+}
+.content{
+    width: 163px;
+    height: 68px;
+    
+}
+.blog-name{
 
 }
+.blog-title{
+    font-size:24px;
+    color: 
+    #562EFF;
+    font-weight: 500px;
+}
+
