@@ -45,28 +45,96 @@ main{
 .blogers{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-row-gap:16px;
+    grid-row-gap:26px;
 }
 .bloger img{
     width: 177px;
-    height: 117px;
+    height: 177px;
 }
 .bloger{
-    display: flex;
-    text-align: center;
+display: flex;
+align-items: center;
+
 }
 .content{
-    width: 163px;
-    height: 68px;
-    
+margin-left: 16px;
 }
 .blog-name{
+width: 163px;
+
+height: 68px;
+margin:0px;
+font-size: 16px;
 
 }
-.blog-title{
-    font-size:24px;
-    color: 
-    #562EFF;
+
+p{margin: 0px;color: #9F9F9F;}
+
+p a{
+    text-decoration: none;
+}
+
+
+
+
+.course-part{
+
+}
+.container{
+width: 870px;
+margin: auto;
+}
+.top-courses{}
+.courses{}
+.course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+img{
+  width: 224px;  
+  height: 104px;
+}
+.course-name{
+    font-size: 20 03px;
+    font-family: roboto;
     font-weight: 500px;
 }
+.name-ditail{
+    font-size: 14.69px;
+    font-weight: 400px;
+    font-family: roboto;
+    color:#ED6B4F;
+    margin-top:0px;
 
+}
+.course-info{
+    display: flex;
+
+}
+.course-info p {
+margin-left:10.71px ;
+font-family: poppins;
+font-weight: 400px;
+}
+
+
+
+
+
+.timer{
+
+}
+
+.timer i{
+height: 20.03px;
+height: 20.03px;
+
+
+}
+.timer p{
+    font-family: open sans;
+    font-weight: 600px;
+    font-size: 14.69px;
+    color:
+    #FF4A60;
+}
